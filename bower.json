@@ -1,0 +1,26 @@
+{
+  "name": "sylhet-directory",
+  "description": "sylhet directory",
+  "main": "index.html",
+  "authors": [
+    "Ahmad Sharif"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "directory"
+  ],
+  "homepage": "https://github.com/ToAhmadSharif/directory",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "^4.5.0"
+  }
+}

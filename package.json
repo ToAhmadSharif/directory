@@ -1,0 +1,31 @@
+{
+  "name": "sylhet-directory",
+  "version": "0.1.0",
+  "description": "sylhet directory",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1",
+    "pretest": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToAhmadSharif/directory.git"
+  },
+  "keywords": [
+    "directory"
+  ],
+  "author": "Ahmad Sharif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToAhmadSharif/directory/issues"
+  },
+  "homepage": "https://github.com/ToAhmadSharif/directory#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.8.5"
+  }
+}
+
+    
