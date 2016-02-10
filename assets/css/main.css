@@ -36,6 +36,9 @@ ul, ol, li {
   margin: 0; }
 
 /* Common Style */
+h1, h2, h3, h4, h5.h6 {
+  margin: 0; }
+
 .bc {
   color: #F68C1F !important; }
 
@@ -96,12 +99,12 @@ a.btn-orange:hover, .btn-orange:hover, .btn-orange:active, .btn-orange:focus {
   color: #FFF; }
 
 .logo-div h1 {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
-  line-height: 1.5em; }
+  line-height: 1em; }
 
 .logo-div h1 > a {
-  font-size: 30px;
+  font-size: 24px;
   color: #000; }
 
 .top-nav {
@@ -130,7 +133,8 @@ a.btn-orange:hover, .btn-orange:hover, .btn-orange:active, .btn-orange:focus {
   float: left; }
 
 hr.brand {
-  border-bottom: 1px solid #F68C1F; }
+  border-bottom: 1px solid #F68C1F;
+  margin: 10px 0; }
 
 /* Search Section */
 .fc {
@@ -163,8 +167,15 @@ button {
   display: inline-block; }
 
 .search-div {
-  display: table;
+  display: block;
+  position: relative; }
+
+.search-content {
+  width: 50%;
   margin: 0 auto; }
+
+.search-content ul {
+  display: inline-block; }
 
 .search-div ul > li {
   display: inline-block;
@@ -174,5 +185,81 @@ button {
   background-color: #FFF;
   border: 2px solid #F68C1F;
   color: #F68C1F; }
+
+.add-link {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 200; }
+
+.add-link > a {
+  font-size: 14px;
+  color: #060606;
+  border: 1px solid #000000;
+  padding: 4px;
+  border-radius: 3px; }
+
+/* Categories */
+.cb {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #F68C1F; }
+
+.c-ul {
+  margin-bottom: 10px; }
+  .c-ul > li {
+    display: block;
+    margin: 5px 0; }
+    .c-ul > li > a {
+      color: #333;
+      font-size: 15px;
+      padding-left: 14px;
+      background: url("../images/icons/rect.png") no-repeat 0 8px;
+      background-size: 6px; }
+
+.ctr h3 {
+  font-size: 16px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px; }
+
+.cb h2 {
+  font-size: 20px;
+  color: #F68C1F;
+  margin-bottom: 12px; }
+.cb .vm-btn {
+  font-size: 16px;
+  color: #F68C1F; }
+
+.lb {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #F68C1F;
+  margin-bottom: 15px; }
+
+.lb-ul > li {
+  margin: 5px 0;
+  color: #333; }
+.lb-ul li.title > h2 {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 10px; }
+
+.f-nav > li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #000; }
+  .f-nav > li > a {
+    color: #000; }
+.f-nav > li:last-child {
+  border-right: 0; }
+
+footer {
+  border-top: 1px solid #F68C1F;
+  padding: 10px 0; }
 
 /*# sourceMappingURL=main.css.map */
